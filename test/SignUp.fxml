@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.SignUpController">
+   <children>
+      <Label layoutX="34.0" layoutY="35.0" text="Username" textFill="#1100ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="75.0" text="Password" textFill="#1100ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="151.0" layoutY="35.0" promptText="Enter your username">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="50.0" layoutY="123.0" mnemonicParsing="false" onAction="#onLog" text="Login">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="34.0" layoutY="185.0" text="Don't have an account?" textFill="#1100ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="268.0" layoutY="178.0" mnemonicParsing="false" onAction="#onSig" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="password" layoutX="151.0" layoutY="78.0" promptText="Enter your password">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
